@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/admin")
 public class Adm_0101Controller {
+	//Test
 	@GetMapping("/adm0101")
 	public String getAdm() {
 		return "index";
